@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>home</title>
+	<link type="text/css" rel="stylesheet" href="styles/base.css" />
+	<link type="text/css" rel="stylesheet" href="styles/common_ui.css" />
+	<link type="text/css" rel="stylesheet" href="styles/header_home.css" />
+	<link type="text/css" rel="stylesheet" href="styles/home.css" />
+	<link type="text/css" rel="stylesheet" href="styles/dialogBox.css" />
+	<link type="text/css" rel="stylesheet" href="styles/menu.css" />
+	<link type="text/css" rel="stylesheet" href="styles/user.css" />
+	<link type="text/css" rel="stylesheet" href="styles/contact.css" />
+	<link type="text/css" rel="stylesheet" href="styles/group.css" />
+	<link type="text/css" rel="stylesheet" href="styles/discus.css" />
+	<link type="text/css" rel="stylesheet" href="styles/contactList.css" />
+	<link type="text/css" rel="stylesheet" href="styles/choseContact.css" />
+	<link type="text/css" rel="stylesheet" href="styles/chat.css" />
+	
+	<script type="text/javascript">
+		//document.domain = 'xxt';
+	</script>
+	<script type="text/javascript" src="scripts/lib/jquery.js"></script>
+	<script type="text/javascript" src="scripts/util/util.js"></script>
+	<script type="text/javascript" src="scripts/core/core.js"></script>
+	<script type="text/javascript" src="scripts/core/ajaxData.js"></script>
+	
+</head>
+
+<body>
+	<!-- header begin -->
+	<div class="header1 pa w">
+		<div class="logo pa"></div>
+		
+		<!-- frame nav -->
+		<ul class="h_frame_nav">
+			<li class="fl" id="inform">
+				<img class="h_frame_nav_icon fl" src="images/inform_new1.png" />
+				<a class="fl h_frame_nav_a" href="javascript:;">通知</a>
+			</li>
+			<li class="fl" id="rss">
+				<img class="h_frame_nav_icon fl" src="images/rss_new1.png" />
+				<a class="fl h_frame_nav_a" href="javascript:;">校园资讯</a>
+			</li>
+			<li class="fl" id="source">
+				<img class="h_frame_nav_icon fl" src="images/source_new1.png" />
+				<a class="fl h_frame_nav_a" href="javascript:;">资源</a>
+			</li>
+			<li class="fl" id="account">
+				<img class="h_frame_nav_icon fl" src="images/account_new1.png" />
+				<a class="fl h_frame_nav_a" href="javascript:;">账户</a>
+			</li>
+		</ul>
+		
+		<!-- top account -->
+		<div class="h_account pa">
+			<span>你好，吴童鞋！</span>
+			<a href="javascript:;" class="logout">[退出]</a>
+		</div>
+		
+	</div>
+	<!-- header end -->
+	
+	<div class="global_loading pa">
+		<!--<img class="fl" src="images/loading.gif" />-->
+		<span class="fl">请稍后...</span>
+	</div>
+	
+	<div class="h_contact_div pa">
+		<!-- contactList begin -->
+		<div class="cl">	
+			<div class="cl_user_area">
+				<div class="user">
+					<img class="user_tx fl" src=""/>
+					<div class="user_info fl">
+						<p class="user_nick"></p>
+						<p class="user_status"></p>
+					</div>
+			 	</div>
+				<div class="cl_fns_area">
+				
+				</div>
+			</div>
+			
+			<div class="cl_search_area pr">
+				<input class="default_input cl_search_input" value="搜索联系人" />
+				<img class="cl_search_img pa" src="images/search.png" />
+			</div>
+			
+			<div class="cl_tabs_area">
+				<div id="contact_tab" class="cl_tabs_normal cl_tabs_active">联系人</div>
+				<div id="discus_tab" class="cl_tabs_normal">讨论组</div>
+			</div>
+			
+			<div class="cl_list_area">
+				<div class="cl_list_wraper">
+					<div id="contacts" class="cl_list_box">
+						
+					</div>
+					<div id="discus" class="cl_list_box">
+					
+					</div>
+				</div>
+			</div>	
+				
+		</div>
+		<!-- contactList end -->
+	</div>
+	
+	<!-- iframe con begin -->
+	<div class="h_con pa w">
+		<div class="h_frame_div">
+			<iframe id="con_frame" name="con_frame" src="" width="100%" height="100%;" frameborder="0" scrolling="auto">
+			</iframe>
+		</div>
+	</div>
+	<!-- iframe con end -->
+
+	
+	<!-- chat begin -->
+	<div class="chat_bottom pa"></div>
+	<!-- chat end -->
+	
+	<script type="text/javascript" src="scripts/plus/dialogBox.js"></script>
+	<script type="text/javascript" src="scripts/plus/dialogBox_objects.js"></script>
+	<script type="text/javascript" src="scripts/plus/menu.js"></script>
+	<script type="text/javascript" src="scripts/plus/menu_objects.js"></script>
+	
+	<script type="text/javascript" src="scripts/core/frame.js"></script>
+	<script type="text/javascript" src="scripts/core/user.js"></script>
+	<script type="text/javascript" src="scripts/core/contact.js"></script>
+	<script type="text/javascript" src="scripts/core/group.js"></script>
+	<script type="text/javascript" src="scripts/core/discus.js"></script>
+	<script type="text/javascript" src="scripts/core/contactList.js"></script>
+	<!--<script type="text/javascript" src="scripts/core/choseContact.js"></script>-->
+	<script type="text/javascript" src="scripts/core/chat.js"></script>
+	<script>
+	CORE.User.initUser();
+	CORE.ContactList.contactListInit();	
+	
+	$(function(){
+		
+		//绑定导航事件
+		$('.h_frame_nav li').each(function(){
+			$(this).click(function(){
+				CORE.frame.navLead.call(this);
+			});
+		});
+		
+		CORE.frame.navLead.call($('#inform'));
+		
+	});
+	
+	</script>
+</body>
+</html>

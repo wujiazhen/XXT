@@ -1,0 +1,10 @@
+/* header */
+.header1{ height:36px; top:0px; left:0px; background:url(../images/top1.png) repeat-x; z-index:100;}
+
+.header2{ height:40px; top:0px; left:0px; z-index:100; background:url(../images/n_head.png) 0 -53px repeat-x; padding-bottom:7px;}
+
+/* top */
+.top_wraper{ margin:0 auto; width:766px; height:40px;}
+
+/* logo */
+.logo{ height:34px; top:0; left:0; width:150px;}

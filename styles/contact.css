@@ -1,0 +1,26 @@
+.contact_tx{ float:left; border:0; border-radius:0px; box-shadow:#aaa 0 0 0px;}
+.contact_tx_big{ width:50px; height:50px;}
+.contact_tx_mid{ width:32px; height:32px;}
+.contact_tx_small{ width:16px; height:16px;}
+
+.contact_font_nick{ color:#444;}
+.contact_font_me_nick{ font-weight:bold; color:#333;}
+.contact_font_status{ color:#999;}
+
+.contact{ cursor:default;}
+.contact:hover{ background:#f0f0f0;}
+.contact_big{ height:50px; padding:6px 10px;}
+.contact_mid{ height:32px; padding:6px 10px;}
+.contact_small{ height:16px; padding:4px 10px;}
+
+.contact_info{ float:left; overflow:hidden;}
+.contact_info_big{ height:50px; width:150px;}
+.contact_info_mid{ height:32px; width:120px;}
+.contact_info_small{ height:16px; width:100px;}
+
+.contact_info_big p{ margin-bottom:5px;}
+.contact_info_big span{ line-height:1.2; margin-left:8px;}
+.contact_info_mid p{margin-bottom:4px;}
+.contact_info_mid span{ line-height:1.1; margin-left:8px;}
+.contact_info_small p{}
+.contact_info_small span{line-height:16px; margin-left:8px;}

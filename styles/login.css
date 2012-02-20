@@ -1,0 +1,35 @@
+body{ font-family:"Î¢ÈíÑÅºÚ"; font-size:12px; color:#666;}
+a{ color:#666;}
+
+/* login ad */
+.login_bg{ width:800px; height:50px; margin:0 auto;}
+
+/* login area */
+.login_area{ width:800px; height:380px; margin:50px auto;}
+
+.login_left{ width:498px; height:330px; padding:25px 0;}
+.login_left img{ width:498px; height:324px;}
+
+
+.login_right{ width:298px; height:376px; border:2px dashed #ddd; border-radius:7px; }
+
+.login_form{ padding:0 20px; background:#fff;}
+
+.login_title{ line-height:36px; font-size:16px; font-weight:bold; color:#333; padding-top:15px;}
+
+.login_result{ color:#ff0000; line-height:16px; padding:10px; margin:10px 0; background:#ffc;}
+
+.login_input_line{ height:36px; padding-bottom:10px; border-bottom:1px dotted #ccc;}
+.login_input{ height:18px; margin:3px 0; padding:5px; width:250px; }
+.login_input_password{ width:150px;}
+
+.login_label{ line-height:36px; font-size:16px; display:block;}
+
+.login_forget_password{ line-height:36px; margin-left:15px; color:#0066CC;}
+
+.login_remember{ height:36px;}
+.login_remember span{ line-height:36px;}
+.login_remember input[type="checkbox"]{ margin:12px 10px 11px 0;}
+
+.login_submit{ height:40px;}
+.login_submit_button{ padding:0 20px;  font-size:18px; line-height:36px; height:36px;}

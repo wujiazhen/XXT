@@ -1,0 +1,13 @@
+.right_info_title{ font-size:13px; font-weight:bold; color:#444; line-height:24px;}
+.right_info_area{ margin:5px 10px; padding:5px; border-bottom:1px dotted #e6e6e6; color:#666;}
+
+
+/* gong gao */
+.gg_con{ line-height:1.8; padding:5px; border-radius:3px; border:1px solid #e6e6e6; background:#f3f3f3; color:#999; margin:8px 0;}
+
+/* download */
+
+/* fan kui */
+.fk_con{ line-height:1.8; margin:8px 0;}
+.fk_con a{ color:#999;}
+.fk_con a:hover{ text-decoration:underline;}

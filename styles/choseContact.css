@@ -1,0 +1,9 @@
+.chose_contact{ width:480px; height:250px; padding:10px;}
+
+.chose_contact_area{ float:left; width:191px; height:246px; border:1px solid #ccc; overflow-y:auto; padding:1px;}
+
+.chose_contact_mid{ float:left; width:90px; height:248px;}
+
+.chose_contact_addbutton{}
+
+.chose_contact_bottom{ float:left; width:480px; height:24px;}

@@ -1,0 +1,10 @@
+.group{ height:22px; line-height:22px; cursor:default;border:1px solid #fff;}
+.group_small{ height:16px; line-height:16px;}
+
+.group:hover{ border:1px solid #ddd;}
+
+.group_img{ float:left; height:16px; width:16px; margin:4px; background:url(../images/jty_8.png);}
+.group_img_small{ margin:0;}
+
+.group_name{ float:left; overflow:hidden; cursor:default;}
+.group_contacts{ height:auto;}

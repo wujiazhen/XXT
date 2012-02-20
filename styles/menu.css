@@ -1,0 +1,13 @@
+/*menu style*/
+.menu_bg{ display:none; position:absolute; top:50px; left:50px; width:150px; height:0; background:#fff; border:1px solid #999; z-index:999999; box-shadow:#aaa 0 0 5px; border-radius:3px;}
+.menu_bg_left{ position:absolute; height:100%; width:26px; z-index:1; background:#f0f0f0;}
+
+.menu{ width:150px; position:absolute; z-index:2; padding:1px; height:0; font-size:13px; color:#666;}
+.menu_item{ float:left; width:148px; height:24px; cursor:default;}
+.menu_item:hover{ color:#FFF; background:#0099CC;}
+
+.menu_item span.menu_txt{ float:left; display:inline; line-height:24px; width:96px;}
+
+.menu_line{ float:left; display:inline; height:1px; font-size:1px; overflow:hidden; background:#bbb; width:118px; border:2px solid #fff; margin-left:26px;} /* remember to set the font-size in ie6 to make sure the min height */
+.menu_icon{ float:left; display:inline; width:16px; height:16px; margin:4px; margin-right:12px; border:0;}
+.menu_more{ float:left; display:inline; width:16px; height:16px; margin:4px 0; background:url(../images/jty_8.png);}

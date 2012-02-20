@@ -1,0 +1,19 @@
+.cl{ position:absolute; width:200px; height:100%; color:#666; padding:8px;}
+
+.cl_user_area{ height:auto;}/* background:#fff; border:1px solid #d6d6d6; border-radius:2px; box-shadow:#dedede 0 0 3px;}*/
+
+.cl_fns_area{ height:30px; margin:5px 10px; border-top:1px dotted #ddd;}
+
+.cl_search_area{ height:28px; margin:8px 0;}
+.cl_search_input{ height:16px; width:163px; padding:5px 30px 5px 5px;}
+.cl_search_img{ top:8px; right:6px;}
+
+.cl_tabs_area{ height:30px; background:#dee;}
+.cl_tabs_normal{ line-height:26px; height:26px; margin:4px 5px 0 5px; text-align:center; float:left; width:90px; cursor:pointer; display:inline;}
+.cl_tabs_active{ background:#fff;}
+
+.cl_list_area{ height:0; width:200px; overflow:hidden; background:#fff;}
+.cl_list_wraper{ width:400px; margin-top:2px; height:100%;}
+.cl_list_box{ width:200px; height:100%; float:left; overflow-y:auto;}
+
+

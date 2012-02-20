@@ -1,0 +1,17 @@
+/*menu style*/
+.dia_bg{ display:none; position:absolute; width:0; height:0; padding:4px; background:url(../images/layer_bg.png); border-radius:4px; top:0; left:0; z-index:99999;}
+.dia_mask{ display:none; position:absolute; width:100%; height:100%; background:#888;filter:alpha(opacity=20); opacity:0.2; z-index:99998;}
+
+.dia_con{ background:#fff; border:1px solid #C6C6C6; width:0; height:0; position:absolute; z-index:1; color:#666;}
+.dia_close{ position:absolute; top:7px; right:7px; width:16px; height:16px; background:url(../images/close3.png); z-index:2;}
+.dia_close:hover{ background:url(../images/close1.png);}
+
+.dia_con_top{ background:#f0f0f0; height:30px; line-height:30px; padding-left:10px;}
+.dia_con_mid{ line-height:1.5; text-align:center; padding:15px 15px 0 15px;}
+.dia_con_bottom{ height:40px; text-align:center;}
+.dia_button,.dia_confirm_button{ margin:8px 0; height:24px; color:#666;}
+.dia_confirm_button{ margin-right:10px; float:right;}
+
+.dia_warn{ width:250px; height:80px; background:#fff;}
+.dia_warn_image{ float:left; height:48px; width:48px; margin:16px; background:url(../images/attention.png);}
+.dia_warn_txt{ float:left; width:160px; margin-top:14px; line-height:2;}

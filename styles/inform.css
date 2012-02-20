@@ -1,0 +1,23 @@
+/* inform */
+html{ height:100%;}
+body{ width:100%; height:100%; overflow-y:auto; font-family:"微软雅黑"; font-size:12px;}
+
+.inform_area{ height:auto; margin-right:201px; padding:0 0 30px 0;}
+
+.inform_top{ height:36px; border-bottom:1px solid #e8e8e8;}
+.inform_title{}
+.inform_new_inform{}
+
+.inform_list{ height:1000px; border-bottom:1px solid #E8E8E8;}
+
+.inform_tabs_wraper{ height:30px; margin-top:-30px;}
+.inform_tabs{ height:28px; padding-left:100px;}
+.inform_tabs_item{ height:28px; padding:0 10px; margin-right:5px; line-height:28px; background:#efefef; border:1px solid #e8e8e8; cursor:pointer; color:#888; font-size:14px;}
+.inform_tabs_pos{ border-bottom-color:#fff; background:#fff; color:#999900;}
+
+.inform_tabs_con{ padding:10px;}
+
+.inform_bar{ border:1px solid #ddd; height:48px;}
+
+
+.inform_right_area{ top:0px; right:0; width:200px; height:100%; border-left:1px solid #E8E8E8;  }
